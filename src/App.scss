@@ -1,0 +1,11 @@
+@use './colors' as color;
+
+
+.app{
+
+  h1{
+    text-align: center;
+    padding: 2.5rem;
+    color: color.$primary;
+  }
+}
